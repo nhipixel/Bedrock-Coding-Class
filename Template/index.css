@@ -1,0 +1,128 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+.img-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(/img/nature.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-animation: myfirst 2s; 
+    animation: myfirst 2s;
+}
+
+  @-webkit-keyframes myfirst {
+    from {opacity: 0.5;}
+    to {opacity: 1;}
+  }
+
+  @keyframes myfirst {
+    from {opacity: 0.5;}
+    to {opacity: 1;}
+  }
+
+.text-container {
+    width:  50vw;
+    height: 80vh;
+    position: absolute;
+    top: 43%;
+    right: 25%;
+}
+ 
+#lithub {
+    height: 8vh;
+    font-family: 'Libre Baskeville', sans-serif;
+    margin-top: 0.7vh;
+    letter-spacing: 1.5vw;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+    margin-bottom: 9vh;
+} 
+
+#introduction {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: white;
+    letter-spacing: 1.25px;
+    line-height: 2;
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: justify; /* For Edge */
+    text-align-last: center;
+    opacity: 85%;
+}
+
+#button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    margin-top: 1vh;
+    width: 10vw;
+    position: absolute;
+    left: 20vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6rem;
+    line-height: 3.5vh;
+    letter-spacing: 3px;
+    text-align: center;
+    border-radius: 13px;
+    background-color: transparent;
+    color: white;
+    border: 0.8px solid white;
+    opacity: 85%;
+    cursor: pointer;
+}
+
+#button:hover {
+  /* background-color:#427799; */
+  background-color: #d1e1ed;
+  color: #427799;
+  border: transparent;
+  transition: background-color 0.6s;
+}
+
+  
+.top-navigation {
+  width: 100vw;
+  height: 3vh;
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-navigation a {
+  height: 2vh;
+  padding: 0.8vw;
+  margin: 0 0.5vw;
+  color: white;
+  font-size: 0.7rem; 
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  text-decoration: none;
+  /* text-align: center; */
+  /* margin: 0vh 2vw */
+}
+
+.top-navigation a:hover {
+  color: white;
+  border-bottom-style: solid;
+}
