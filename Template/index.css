@@ -64,7 +64,7 @@ html, body {
     line-height: 2;
     font-size: 0.8rem;
     font-style: italic;
-    text-align: justify; /* For Edge */
+    text-align: center; 
     text-align-last: center;
     opacity: 85%;
 }
